@@ -1,7 +1,7 @@
 # push_swap
 push_swap - это программа сортировки стека с огранниченным и строго определенным числом инструкций над исходным и вспомогательным стеком.  
 
-usage:		./checker -\[i | \[s | q | b] | p | fFILE$] <numbers> <commands> . 
+usage:\t./checker -\[i | \[s | q | b] | p | fFILE$] <numbers> <commands> . 
 		./push_swap <numbers> <commands> . 
 		ARG="<numbers>"; ./push_swap $ARG | ./checker $ARG . 
 		./push_swap -fops$ $(cat <file>); ./checker -fops$ $(cat <file>)
